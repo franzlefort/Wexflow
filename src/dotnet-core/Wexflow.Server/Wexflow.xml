@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Wexflow>
+    <Setting name="tempFolder" value="/Applications/wexflow/Wexflow/Temp" />
+    <Setting name="tasksFolder" value="/Applications/wexflow/Wexflow/Tasks" />
+    <Setting name="approvalFolder" value="/Applications/wexflow/Wexflow/Approval" />
+    <Setting name="xsd" value="/Users/user/Desktop/Projects/Orwell/src/dotnet-core/Wexflow.Core/Workflow.xsd" />
+    <Setting name="tasksNamesFile" value="/Users/user/Desktop/Projects/Orwell/src/dotnet-core/Wexflow.Server/TasksNames.json" />
+    <Setting name="tasksSettingsFile" value="/Users/user/Desktop/Projects/Orwell/src/dotnet-core/Wexflow.Server/TasksSettings.json" />
+    <!-- LiteDB or MongoDB or RavenDB or CosmosDB -->
+    <Setting name="dbType" value="PostgreSQL" />
+    <!--LiteDB-->
+    <Setting name="connectionString" value="Server=127.0.0.1;User ID=postgres;Password=gtterfd;Database=Wexflow" />
+    <!--MongoDB. SslProtocols: None|Ssl2|Ssl3|Tls|Default|Tls11|Tls12-->
+    <!--<Setting name="connectionString" value="DatabaseName=wexflow-dotnet-core;MongoUrl=mongodb://localhost:27017;EnabledSslProtocols=false;SslProtocols=None" />-->
+    <!--RavenDB-->
+    <!--<Setting name="connectionString" value="DatabaseName=wexflow-dotnet-core;RavenUrl=http://localhost:8080" />-->
+    <!--CosmosDB-->
+    <!--<Setting name="connectionString" value="DatabaseName=wexflow-dotnet-core;EndpointUrl=URL;AuthorizationKey=KEY" />-->
+    <Setting name="globalVariablesFile" value="/Users/user/Desktop/Projects/Wexflow/src/dotnet-core/Wexflow.Server/GlobalVariables.xml" />
+    <Setting name="maxRetries" value="5" />
+    <Setting name="retryTimeout" value="700" />
+</Wexflow>
